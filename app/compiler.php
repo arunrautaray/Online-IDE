@@ -13,7 +13,7 @@ if($language == "php") {
     echo $output;
 }
 if($language == "python") {
-    $output = shell_exec("C:\Users\KOUSIK\AppData\Local\Programs\Python\Python39\python.exe $filePath 2>&1");
+    $output = shell_exec("C:\Python\Python39\python.exe $filePath 2>&1");
     echo $output;
 }
 if($language == "node") {
